@@ -31,5 +31,10 @@ $alignLeft:left;
 }
 #lista-alumnas, #lista-alumnas li{
   text-align:$alignLeft;
-
+}
+.gris-centrado{
+  background-color: $labGray;
+  color:$txtWhite;
+  text-align:center;
+  padding: $padding;
 }
