@@ -1,0 +1,13 @@
+$row-width:100%;
+$labYellow: rgb(247, 182, 23);
+$labGray: rgb(43, 43, 43);
+$txtWhite:white;
+
+.fondo-amarillo{
+  background-color: $labYellow;
+  color:$txtWhite;
+}
+.fondo-gris{
+  background-color: $labGray;
+  color:$txtWhite;
+}
