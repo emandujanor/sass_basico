@@ -2,12 +2,34 @@ $row-width:100%;
 $labYellow: rgb(247, 182, 23);
 $labGray: rgb(43, 43, 43);
 $txtWhite:white;
+$cursor:pointer;
+$margenInferior:5px;
+$quitarBulet:none;
+$padding:10px;
+$alignLeft:left;
 
 .fondo-amarillo{
   background-color: $labYellow;
   color:$txtWhite;
+  padding: $padding;
 }
-.fondo-gris{
+.left{
+  text-align:$alignLeft;
+}
+#menu-izquierda li{
   background-color: $labGray;
   color:$txtWhite;
+  cursor:$cursor;
+  margin-bottom:$margenInferior;
+  list-style: $quitarBulet;
+  padding: $padding;
+  text-align:$alignLeft;
+}
+#menu-izquierda li:hover{
+  background-color: $labYellow;
+  color:$txtWhite;
+}
+#lista-alumnas, #lista-alumnas li{
+  text-align:$alignLeft;
+
 }

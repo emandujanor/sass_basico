@@ -1,9 +1,25 @@
 .fondo-amarillo {
   background-color: #f7b617;
+  color: white;
+  padding: 10px; }
+
+.left {
+  text-align: left; }
+
+#menu-izquierda li {
+  background-color: #2b2b2b;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  list-style: none;
+  padding: 10px;
+  text-align: left; }
+
+#menu-izquierda li:hover {
+  background-color: #f7b617;
   color: white; }
 
-.fondo-gris {
-  background-color: #2b2b2b;
-  color: white; }
+#lista-alumnas, #lista-alumnas li {
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
