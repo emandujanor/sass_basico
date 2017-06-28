@@ -2,7 +2,7 @@ var api = {
   url: 'http://laboratoria.cuadra.co:9339/api/v1/students/'
 };
 
-var $alunmasList = $("#lista-alumnas")
+var $alunmasList = $("#lista-alumnas");
 
 var cargarPagina = function () {
   cargarAlumnas();
@@ -22,8 +22,12 @@ var crearAlumna = function (alumna) {
   var nombreCompleto= nombre + " " + pLastName + " " + mLastName;
   console.log(nombreCompleto);
   //crear li
-  var $li =("<li />");
+  var $li =$("<li />");
+  var $check=$("<input/>");
+      $check.attr("type", "checkbox");
   $li.text(nombreCompleto);
+  $li.append($check);
+  $alunmasList.append($li);
 
 }
 
